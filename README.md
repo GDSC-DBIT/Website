@@ -1,13 +1,7 @@
-<img src="./img/GDSC CRCE.png">
-<hr/>
+# How to Contribute to this Repository?
 
+- Commit your code to the dev branch.
+- Changes will be reviewed and then merged in the main branch.
 
-## Website: https://crce-gdsc.github.io
-## LinkedIn: https://www.linkedin.com/company/gdsc-crce/ 
-## GitHub: https://github.com/GDSC-CRCE
-## Twitter: https://twitter.com/gdsc_crce
-## Instagram: https://www.instagram.com/gdsc_crce/
-
-
-              
-
+### Commits should always be pushed to the dev branch.
+### They will be reviewed and then merged in the main branch.
