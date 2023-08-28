@@ -1,16 +1,670 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>GDSC DBIT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
-</body>
+    <!-- Favicons -->
+    <link href="img/GDSC PNG.png" rel="icon" />
+    <link href="img/GDSC PNG.png" rel="apple-touch-icon" />
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+      rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Material+Icons' rel='stylesheet'
+      type='text/css'>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/ionicons.min.css" rel="stylesheet">
+
+
+
+    <!-- Libraries CSS Files -->
+    <!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+
+    <script src="https://kit.fontawesome.com/dbc6423976.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5XEQ9Q0G4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q5XEQ9Q0G4');
+</script>
+  
+  
+  
+  </head>
+
+  <body>
+
+    <!-- ===================================== pre-loader start =========================== -->
+    <div id="preloader">
+      <div class="boxes cen">
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================================== pre-loader ends =========================== -->
+
+
+    <!--==========================
+  Header
+  ============================-->
+    <header id="header" class="fixed-top">
+      <div class="container">
+        <div class="logo float-left">
+          <a href="index.html" class="scrollto"><img src="img/GDSC CRCE.png" alt="" width="310" height="300"
+              class="img-fluid" /></a>
+        </div>
+
+        <nav class="main-nav float-right d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#intro">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">What We Do</a></li>
+            <li><a href="#services">Events</a></li>
+            <li><a href="team2022-23.html">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!-- .main-nav -->
+      </div>
+    </header>
+    <!-- #header -->
+
+    <!--==========================
+    Intro Section
+  ============================-->
+    <section id="intro" class="clearfix">
+      <div class="container">
+
+
+        <div class="intro-info">
+          <br /><br />
+          <h2>Get ready to delve into the World of Developers</h2>
+          <br />
+          <div>
+
+            <a href="https://gdsc.community.dev/fr-conceicao-rodrigues-college-of-engineering-mumbai/" target="_blank"
+              class="btn-get-started scrollto">Join us</a>
+            <a href="https://join.slack.com/t/gdsccrce/shared_invite/zt-1kk0wuhn4-hxeYlylWstqZ~k1te3sjEg"
+              target="_blank" class="btn-get-started dis">Slack</a>
+
+
+            <!-- <a href="https://discord.gg/7UMRfxUV" target="_blank" class="btn-get-started dis"><i class="fa-brands fa-discord"></i> Discord</a> -->
+
+            <!-- <a href="#services" class="btn-services scrollto">Our Services</a> -->
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+    <!-- #intro -->
+
+    <main id="main">
+      <section id="about" class="clearfix">
+        <br /><br />
+        <div class="container" data-aos="fade-up">
+          <header class="section-header text-center">
+            <h3 class="section-title">About Us</h3>
+            <br>
+          </header>
+          <div class="row">
+            <div class="col-md-4 col-12">
+              <div class="feature-card wow fadeInUp">
+                <div class="feature-card__body">
+                  <i class="fas fa-rocket ghost-blue"></i>
+                  <h4 class="feature-title">Concept of GDSC</h4>
+                  <p align="justify">Google-backed university clubs fostering web and app development, DSA, etc,  learning, collaboration, and networking among students interested in Google technologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="feature-card wow fadeInUp">
+                <div class="feature-card__body">
+                  <i class="fas fa-lightbulb ghost-green"></i>
+                  <h4 class="feature-title">Why GDSC?</h4>
+                  <p align="justify">GDSCs are university groups endorsed by Google, offering tech workshops and networking for students to learn about Google tech and collaborate on projects. Great for skill-building and industry connections.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="feature-card wow fadeInUp">
+                <div class="feature-card__body">
+                  <i class="fas fa-users ghost-red"></i>
+                  <h4 class="feature-title">Target audience</h4>
+                  <p align="justify">University students interested in DSA, web and app development etc, seeking to enhance their skills, collaborate on projects, and connect with a community passionate about Google technologies.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--==========================
+      What We Do Section
+    ============================-->
+      <section id="service" class="">
+        <div class="container">
+          <header class="section-header wow fadeInUp">
+            <h3>What We Do</h3>
+            <p align="justify">
+
+              GDSC DBIT boasts of a multifaceted community with members from various disciplines working together. By
+              joining GDSC DBIT students get to work with an exceptionally skilled group of developers, connect with
+              developers around the world, make projects,organized workshops and many more.
+            </p>
+          </header>
+          <div class="pro_title wrk wow fadeInUp">
+            <h3><b>We Work On: </b></h3>
+            <!-- <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
+          </div>
+          <div class="row h-100 justify-content-center align-items-center">
+
+            <div class="col-lg-6 col-md-12 services-content">
+              <div class="row mb-3">
+                <div class="col-lg-6 col-md-6 wow fadeInUp">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fa-brands fa-btc" style="color:#2C5364"></i>
+                    </div>
+                    <h6 class="title">Blockchain</h6>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6  wow fadeInUp">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fa fa-mobile" style="color: #2C5364"></i>
+                    </div>
+                    <h6 class="title">App Development</h6>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6  wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fa fa-globe" style="color: #2C5364"></i>
+                    </div>
+                    <h6 class="title">Web Development</h6>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fas fa-robot" style="color:#2C5364"></i>
+                    </div>
+                    <h6 class="title">Machine Learning</h6>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fas fa-user-lock" style="color:#2C5364"></i>
+                    </div>
+                    <h6 class="title">Cyber Security</h6>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6  wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fa fa-cloud" style="color: #2C5364"></i>
+                    </div>
+                    <h6 class="title">Cloud Computing</h6>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="box">
+                    <div class="icon">
+                      <i class="fas fa-solar-panel" style="color:#2C5364"></i>
+                    </div>
+                    <h6 class="title">IOT</h6>
+                  </div>
+                </div>
+               
+
+
+
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 services-left-image wow fadeInUp">
+              <img src="img/logo/wht_we_do.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          <!-- projects section strt -->
+          <div class="project_section">
+
+
+            <div class="pro_title skill wow fadeInUp">
+              <h3><b>Skill Ups</b></h3>
+              <p align="justify">These are the major skill ups conducted under GDSC.</p>
+            </div>
+
+
+            <div class="proj_cards">
+              <main class="page-content">
+
+                <div class="card_pr  wow fadeInUp">
+                  <div class="content_pr">
+                    <h2 class="title_pr">Google Cloud Career Practitioner (GCCP)</h2>
+                    <p class="copy_pr"><b>Facilitator - Aditya Mahamuni</b></p>
+                    <p class="copy_pr"><b>From 14th Oct to 9th Jan</b></p>
+                    <!-- <a href="googlecloud.html" target="_blank"><button class="btn_pr">Know more</button></a> -->
+                  </div>
+                </div>
+
+                <div class="card_pr  wow fadeInUp">
+                  <div class="content_pr">
+                    <h2 class="title_pr">Jetpack Compose Camp</h2>
+                    <p class="copy_pr"><b>From 13th Sept to 20th Sept</b></p>
+
+                    <a href="https://gdsc.community.dev/e/m4p9fh/" target="_blank"><button class="btn_pr">Know
+                        more</button></a>
+
+
+                  </div>
+                </div>
+
+
+
+              </main>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!--==========================
+      Events Section
+    ============================-->
+      <section id="services" class="section-bg">
+
+        <div class="container" data-aos="fade-up">
+
+          <header class="section-header">
+            <h3>Events</h3>
+            <p align="justify">We conduct regular events including tech talks and workshops to make students familiar
+              with latest tech advancements and programs.</p>
+          </header>
+
+          <div class="row justify-content-center">
+
+            <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="500">
+              <div class="box">
+                <div class="left">
+                  <div class="img"> <img src="./img/events/seo.png" alt=""> </div>
+                </div>
+                <div class="right">
+                  <a href="https://gdsc.community.dev/e/mg96jj/" style="color: inherit;" target="_blank">
+                    <h4 class="title">Tech Talk</h4>
+                    <p class="description"><b>Getting Started With Elastic Stack for SEO</b></p>
+                    <p class="description"><b>Speaker:</b> Ashish Tiwari</p>
+                    <p class="description"><b>Date: </b>11th January, 2023</p>
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="500">
+              <div class="box">
+                <div class="left">
+                  <div class="img"> <img src="./img/events/webdev.png" alt=""> </div>
+                </div>
+                <div class="right"><a href="https://gdsc.community.dev/e/mgbsdq/" style="color: inherit;"
+                    target="_blank">
+                    <h4 class="title">Web Development Workshop</h4>
+                    <p class="description"><b>Hands On Workshop on HTML5, CSS3, JavaScript</b></p>
+                    <p class="description"><b>Speaker:</b> Candida Noronha</p>
+                    <p class="description"><b>Date: </b>7th January, 2023</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="500">
+              <div class="box">
+                <div class="left">
+                  <div class="img"> <img src="./img/events/mathday.jpeg" alt=""> </div>
+                </div>
+                <div class="right"><a href="https://gdsc.community.dev/e/mbucfv/" style="color: inherit;"
+                    target="_blank">
+                    <h4 class="title">National Mathematics Day</h4>
+
+                    <p class="description"><b>Contests: </b>Just ∫du it & Creat-e-matics</p>
+
+                    <p class="description"><b>Date: </b>22nd December, 2022</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="500">
+              <div class="box">
+                <div class="left">
+                  <div class="img"> <img src="./img/events/HackOver3.0.jpg" alt=""> </div>
+                </div>
+                <div class="right"><a href="https://hackover.netlify.app/" style="color: inherit;" target="_blank">
+                    <h4 class="title">HackOver 3.0</h4>
+                    <p class="description"><b>Virtual Hackathon</b></p>
+                    <p class="description"><b>Domains: </b>Web/App Dev, Blockchain & Game Dev</p>
+
+                    <p class="description"><b>Date: </b>4th & 5th October, 2022</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="500">
+              <div class="box">
+                <div class="left">
+                  <div class="img"> <img src="./img/events/ideation.jpg" alt=""> </div>
+                </div>
+                <div class="right">
+                  <a href="https://gdsc.community.dev/e/m89s4t/" style="color: inherit;" target="_blank">
+                    <h4 class="title">Tech Talk</h4>
+                    <p class="description"><b>Workshop on Problem Solving & Ideation </b></p>
+                    <p class="description"><b>Speaker:</b> Princeton Baretto</p>
+                    <p class="description"><b>Date: </b>30th August, 2022</p>
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =============================
+      team
+      ============================ -->
+
+      <section id="services" class="team-bg">
+
+        <div class="container" data-aos="fade-up">
+
+          <header class="section-header">
+            <h3>Get to know The Team</h3>
+            <p align="center"><br />“Individually, we are one drop. Together, we are an ocean.” — Ryunosuke Satoro</p>
+            <p class="row justify-content-center">
+              <a href="team2022-23.html" class="btn btn-outline-primary hov">
+                The Team</a>
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!--==========================
+      Contact Section
+    ============================-->
+      <section id="contact">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h3>Contact Us</h3>
+          </div>
+
+          <div class="row wow fadeInUp">
+            <div class="col-lg-6">
+              <div class="map mb-4 mb-lg-0">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4410136005313!2d72.81818181433687!3d19.04433805791724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9410830616d%3A0x111b63353dbbce01!2sFr.%20Conceicao%20Rodrigues%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1660900113753!5m2!1sen!2sin"
+                  width="100%" height="345px" style="border:0;" allowfullscreen="" frameborder="0" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-4 info">
+                  <i class="ion-ios-location-outline"></i>
+                  <p>Fr. CRCE, Bandra, Mumbai-400051</p>
+                </div>
+                <div class="col-md-4 info">
+                  <i class="ion-ios-email-outline"></i>
+                  <p align="justify">crcegdsc@gmail.com</p>
+                </div>
+                <div class="col-md-3 info">
+                  <i class="ion-ios-telephone-outline"></i>
+                  <p align="justify">+91 8652486718</p>
+                </div>
+
+              </div>
+
+              <div class="form">
+                <div id="sendmessage">
+                  Your message has been sent. Thank you!
+                </div>
+                <div id="errormessage"></div>
+                <form action="https://formsubmit.co/crcegdsc@gmail.com" method="POST" role="form" class="contactForm"
+                  id="contactForm">
+                  <div class="form-row">
+                    <div class="form-group col-lg-12">
+                      <input type="text" name="name" class="form-control" id="fname" placeholder="Full Name"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" required autocomplete="off" />
+                      <div class="validation"></div>
+                    </div>
+                
+                    <div class="form-group col-lg-6">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                        data-rule="email" data-msg="Please enter a valid email" required />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input class="form-control" type="number" id="phone" name="phone" placeholder="Phone number"
+                        pattern="^[789]\d{9}$" data-rule="minlen:10" />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                      data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required
+                      autocomplete="off" required />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
+                      data-msg="Please write something for us" placeholder="Message" required></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" title="Send Message">
+                      Send Message
+                    </button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://crce-gdsc.github.io/index.html">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #contact -->
+    </main>
+
+    <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <h3>GDSC Community</h3>
+            <p align="justify">
+              Helping students to bridge the gap between theory and practice.
+              By joining a GDSC, students grow their knowledge in a
+              peer-to-peer learning environment and build solutions for local
+              businesses and their community.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="./index.html" class="scrollto">Home</a></li>
+              <li><a href="./index.html" class="scrollto">Events</a></li>
+              <li>
+                <a href="team2022-23.html" class="scrollto">Our Team</a>
+              </li>
+              <li><a href="gl.html">Community guidelines</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Don Bosco Institute of Technology<br />
+              Kurla (W), Mumbai-400070<br />
+              Maharashtra, India<br />
+              <strong>Phone:</strong>+91 8652486718<br />
+              <strong>Email:</strong> crcegdsc@gmail.com<br />
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/google-developers-student-club-dbit/mycompany/" class="linkedin"><i
+                  class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/GDSC-DBIT" class="github"><i class="fa fa-github"
+                  aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/gdsc.dbit/" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+
+            <div class="intro-info">
+              <h4>Get ready to dive into the world of developers</h4>
+              <div>
+                <a href="https://gdsc.community.dev/don-bosco-institute-of-technology-mumbai/"
+                  target="_blank" class="btn df">Join us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>GDSC DBIT</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed & Developed by 
+        
+        <span>
+          <a href="https://www.linkedin.com/in/gaven-dcosta-b18165239/">Gaven Dcosta |</a></span> 
+          <a href="https://www.linkedin.com/in/sahilsingh03122003/">Sahil Singh |</a></span>
+          <a href="https://www.instagram.com/anushka_emily/">Anushka Emily</a></span>
+      </div>
+    </div>
+  </footer>
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/mobile-nav/mobile-nav.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://kit.fontawesome.com/78cf058d97.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
+
 
 </html>
