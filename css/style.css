@@ -1770,7 +1770,7 @@ pro_title>h3{
 }
 
 #contact .form button[type="submit"] {
-  background: #fbbc04;
+  background-color: #fbbc04;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
