@@ -915,6 +915,247 @@ pro_title>h3{
 
 /*  Skill Ups Card End */
 
+
+/* Event Cards Start */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+.event-card {
+  float: left;
+  padding: 0 1.7rem;
+  width: 300px;
+  height: 510px;
+  padding: 15px;
+}
+
+.event-card .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.event-card .menu-content::before,
+.event-card .menu-content::after {
+  content: "";
+  display: table;
+}
+
+.event-card .menu-content::after {
+  clear: both;
+}
+
+.event-card .menu-content .event-li {
+  display: inline-block;
+}
+
+.event-card .menu-content .event-a {
+  color: #fff;
+}
+
+.event-card .menu-content span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  transform: translate(-50%, 0);
+}
+
+.event-card .event-wrapper {
+  background-color: #fff;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.event-card .event-wrapper:hover .event-data {
+  transform: translateY(0);
+}
+
+.event-card .event-data {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}
+
+.event-card .event-data .event-content {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.event-card .event-author {
+  font-size: 12px;
+}
+
+.event-card .event-title {
+  margin-top: 10px;
+}
+
+.event-card .event-text {
+  height: 70px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.event-card input[type=checkbox] {
+  display: none;
+}
+
+.event-card input[type=checkbox]:checked+.menu-content {
+  transform: translateY(-60px);
+}
+
+.event-example-1 .event-wrapper {
+  background: url(../img/logo/GDSC_DBIT.webp);
+  background-size: contain;
+}
+
+.event-example-1 .event-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #77d7b9;
+  color: #fff;
+  padding: 0.8em;
+}
+
+.event-example-1 .event-date span {
+  display: block;
+  text-align: center;
+}
+
+.event-example-1 .event-date .day {
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+
+.event-example-1 .event-date .month {
+  text-transform: uppercase;
+}
+
+.event-example-1 .event-date .month,
+.event-example-1 .event-date .year {
+  font-size: 12px;
+}
+
+.event-example-1 .event-content {
+  background-color: #fff;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+
+.event-example-1 .event-title .event-a {
+  color: gray;
+}
+
+.event-example-1 .menu-button {
+  position: absolute;
+  z-index: 999;
+  top: 16px;
+  right: 16px;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.event-example-1 .menu-button span {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  color: gray;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.event-example-1 .menu-button span::after,
+.event-example-1 .menu-button span::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: currentColor;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.event-example-1 .menu-button span::before {
+  left: -10px;
+}
+
+.event-example-1 .menu-button span::after {
+  right: -10px;
+}
+
+.event-example-1 .menu-content {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  transition: transform 0.3s;
+  transform: translateY(0);
+}
+
+.event-example-1 .menu-content .event-li {
+  width: 100%;
+  float: left;
+  background-color: #77d7b9;
+  height: 60px;
+  position: relative;
+}
+
+.event-example-1 .menu-content .event-a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.event-example-1 .menu-content span {
+  top: -10px;
+}
+
+.event-name, .event-author, .event-text{
+  color: grey;
+  text-decoration: none;
+}
+
+.event-a{
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-a:hover{
+  background-color: #66bb6a;
+}
+
+.event-title{
+  font-size: 30px;
+}
+
+.event-text{
+  font-size:14px;
+}
+
+
+
+
+/* Event Cards End */
+
+
+
  /* project  Section ends */
 
 
@@ -1529,7 +1770,7 @@ pro_title>h3{
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #fbbc04;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1538,9 +1779,10 @@ pro_title>h3{
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: green;
   cursor: pointer;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1556,6 +1798,20 @@ pro_title>h3{
 #footer .footer-top {
   background: #c8e6c9;
   padding: 60px 0 30px 0;
+}
+
+.footer-btn{
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #fbbc04;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.footer-btn:hover{
+  background-color: green;
+  color: white;
 }
 
 #footer .footer-top .footer-info {
