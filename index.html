@@ -18,10 +18,19 @@
   </header>
   <script>
     // Setup End Date for Countdown (getTime == Time in Milleseconds)
-let launchDate = new Date("August 31, 2023 07:15:00").getTime();
+let launchDate = new Date("August 31, 2023 07:33:00").getTime();
 
 // Setup Timer to tick every 1 second
-let timer = setInterval(tick, 1000);
+//let timer = setInterval(tick, 1000);
+
+let now = new Date().getTime();
+let t = launchDate - now;
+
+if(t<0){
+  window.location.replace("http://localhost:5173/index-main.html");
+}else{
+  let timer = setInterval(tick, 1000);
+}
 
 
 
@@ -64,9 +73,9 @@ function tick () {
   }
 }
 
-  if(document.querySelector('.countdown').innerText == '00 : 00 : 00 : 00'){
-    window.location.replace("http://localhost:5173/index-main.html");
-  }
+  
+    
+  
 
 
   </script>
