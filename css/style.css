@@ -2419,3 +2419,30 @@ pro_title>h3{
 .domain_box:hover > .title{
   color: white;
 }
+
+
+.parallax{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.parallax-btn{
+  padding: 20px;
+  color: white;
+  background-color: #fbbc04;
+  position: absolute;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+.parallax-btn:hover{
+  background-color: green;
+  color: white;
+}
