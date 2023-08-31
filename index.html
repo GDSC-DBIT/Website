@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>The Coffee Bean</title>
+  <title>GDSC DBIT</title>
 
   <link rel="stylesheet" href="main.css" />
 </head>
@@ -18,10 +18,12 @@
   </header>
   <script>
     // Setup End Date for Countdown (getTime == Time in Milleseconds)
-let launchDate = new Date("August 30, 2023 22:28:00").getTime();
+let launchDate = new Date("August 31, 2023 07:15:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
+
+
 
 function tick () {
   // Get current time
@@ -60,9 +62,13 @@ function tick () {
       window.location.replace("http://localhost:5173/index-main.html");
     }
   }
-
-  
 }
+
+  if(document.querySelector('.countdown').innerText == '00 : 00 : 00 : 00'){
+    window.location.replace("http://localhost:5173/index-main.html");
+  }
+
+
   </script>
 </body>
 </html>
