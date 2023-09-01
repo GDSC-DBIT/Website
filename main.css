@@ -15,7 +15,7 @@ header {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  background-image: url("th.jpeg");
+  background-image: url("img/Website_BG.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -36,7 +36,7 @@ header .content {
   z-index: 1;
 }
 header .content h1 {
-  color: #FFF;
+  color: #000000;
   font-size: 28px;
   font-weight: 900;
 }
@@ -113,6 +113,10 @@ header .content .countdown {
   header .content .countdown {
     font-size: 88px;
   }
+}
+
+*{
+  color:black;
 }
 
 /*# sourceMappingURL=main.css.map */
