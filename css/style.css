@@ -572,7 +572,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: auto;
   display: flex;
   align-items: center;
   position: sticky;
@@ -707,7 +707,7 @@ h6 {
   margin-right: 65%;
 }
 #img .container{
-  width: auto;
+  width: 100%;
 }
 #img .intro-img{
   width: 350px;
@@ -763,6 +763,7 @@ h6 {
 .main-nav li:hover > a {
   font-size: 16px;
   text-decoration: none;
+  padding-top: 5px 10px;
   background-color: #66bb6a;
   color: white;
 }
@@ -1156,39 +1157,39 @@ pro_title>h3{
 @media (any-hover: hover) and (any-pointer: fine) {
   .skill-card__content {
     transform: translateY(82px);
-    transition: transform 500ms ease-out;
-    transition-delay: 500ms;
+    transition: transform 300ms ease-out;
+    transition-delay: 300ms;
   }
 
   .skill-card__title::after {
     opacity: 0;
     transform: scaleX(0);
-    transition: opacity 1000ms ease-in, transform 500ms ease-out;
-    transition-delay: 500ms;
+    transition: opacity 300ms ease-in, transform 300ms ease-out;
+    transition-delay: 300ms;
     transform-origin: right;
   }
 
   .skill-card__background {
-    transition: transform 500ms ease-in;
+    transition: transform 300ms ease-in;
   }
 
   .skill-card__content--container > :not(.skill-card__title),
   .skill-card__button {
     opacity: 0;
-    transition: transform 500ms ease-out, opacity 500ms ease-out;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
   }
 
   .skill-card:hover,
   .skill-card:focus-within {
     transform: scale(1);
-    transition: transform 500ms ease-in;
+    transition: transform 300ms ease-in;
     
   }
 
   .skill-card:hover .skill-card__content,
   .skill-card:focus-within .skill-card__content {
     transform: translateY(0);
-    transition: transform 500ms ease-in;
+    transition: transform 300ms ease-in;
     height: 300px;
   }
 
@@ -1206,8 +1207,8 @@ pro_title>h3{
   .skill-card:focus-within .skill-card__content--container > :not(.skill-card__title),
   .skill-card:focus-within .skill-card__button {
     opacity: 1;
-    transition: opacity 500ms ease-in;
-    transition-delay: 1000ms;
+    transition: opacity 300ms ease-in;
+    transition-delay: 600ms;
   }
 
   .skill-card:hover .skill-card__title::after,
