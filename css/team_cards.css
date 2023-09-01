@@ -450,3 +450,8 @@
 .return-home-button:hover{
    background-color: #4285f4;
 }
+
+.core-img{
+    width: 100%;
+    height: 100%;
+}
