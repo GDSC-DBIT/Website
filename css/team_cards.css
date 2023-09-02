@@ -32,6 +32,16 @@
     padding-bottom: calc(100% - 16px);
     margin-bottom: 6.6em;
 }
+
+@media (min-width:576px) and (max-width:773px){
+    .material-card{
+        margin-bottom: 8.6em;
+    }
+}
+
+
+
+
 .material-card h2 {
     position: absolute;
     top: calc(100% - 16px);
@@ -49,6 +59,20 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+@media (min-width:773px) and (max-width:991px){
+    .material-card h2 {
+        font-size: 1em;
+    }
+
+    .material-card.Blue .mc-footer a {
+        width:47px;
+    }
+}
+
+
+
+
 .material-card h2 span {
     display: block;
 }
@@ -455,3 +479,4 @@
     width: 100%;
     height: 100%;
 }
+
