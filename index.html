@@ -37,6 +37,9 @@
   <link rel="stylesheet" href="./css/team_cards.css">
   <link rel="stylesheet" href="./css/parallax.css">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
 
 
 
@@ -204,7 +207,7 @@
           <div class="col-md-4 col-12 card-tilt-js">
             <div class="feature-card wow fadeInUp">
               <div class="feature-card__body">
-                <i class="fas fa-rocket ghost-blue"></i>
+                <i class="fas fa-rocket ghost-blue" style="color: rgb(20, 125, 223);"></i>
                 <h4 class="feature-title">Concept of GDSC</h4>
                 <p>Google-backed university clubs fostering web and app development, DSA, etc, learning,
                   collaboration, and networking among students interested in Google technologies.
@@ -216,7 +219,7 @@
           <div class="col-md-4 col-12  card-tilt-js">
             <div class="feature-card wow fadeInUp">
               <div class="feature-card__body">
-                <i class="fas fa-lightbulb ghost-green" style="fill: green;"></i>
+                <i class="fas fa-lightbulb ghost-green" style="color: green;"></i>
                 <h4 class="feature-title">Why GDSC?</h4>
                 <p>GDSCs are university groups endorsed by Google, offering tech workshops and
                   networking for students to learn about Google tech and collaborate on projects. Great for
@@ -229,7 +232,7 @@
           <div class="col-md-4 col-12  card-tilt-js">
             <div class="feature-card wow fadeInUp">
               <div class="feature-card__body">
-                <i class="fas fa-users ghost-red" style="fill:red"></i>
+                <i class="fas fa-users ghost-red" style="color:red"></i>
                 <h4 class="feature-title">Target audience</h4>
                 <p>University students interested in DSA, web and app development etc, seeking to
                   enhance their skills, collaborate on projects, and connect with a community passionate about Google
@@ -438,8 +441,8 @@
         <div style="display: flex;flex-direction:row;flex-wrap:wrap; justify-content:center;">
 
 
-          <div class="event-example-1 event-card" data-aos="zoom-in" data-aos-delay="350">
-            <div class="event-wrapper">
+          <div class="event-example-1 event-card  event-card-1"  data-aos="zoom-in" data-aos-delay="350">
+            <div class="event-wrapper" style="background: url(../img/logo/GDSC_DBIT.webp); background-size:contain;">
               <div class="event-date">
                 <span class="day event-span">28</span>
                 <span class="month event-span">Aug</span>
@@ -451,13 +454,39 @@
                   <h1 class="event-title">Online Info Session</h1>
                   <p class="event-text">Gave Info about all the events, workshops, campaigns, etc which will happen in
                     this academic year</p>
-                  <label for="show-menu" class="menu-button"><span class="event-span"></span></label>
+                  <label for="show-menu-1" class="menu-button"><span class="event-span"></span></label>
                 </div>
-                <input type="checkbox" id="show-menu" />
-                <ul class="menu-content">
+                <input type="checkbox"  id="show-menu-1" />
+                <ul class="menu-content menu-content-1">
                   <li class="event-li">
                     <a target="_blank"
                       href="https://gdsc.community.dev/events/details/developer-student-clubs-don-bosco-institute-of-technology-mumbai-presents-info-session/"
+                      class="event-a">Visit</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-example-1 event-card event-card-2 " data-aos="zoom-in" data-aos-delay="350">
+            <div class="event-wrapper" style="background: url(../img/programs/placementawareness.png); background-size:contain;">
+              <div class="event-date">
+                <span class="day event-span">6</span>
+                <span class="month event-span">Sept</span>
+                <span class="year event-span">2023</span>
+              </div>
+              <div class="event-data">
+                <div class="event-content">
+                  <span class="event-author event-span">GDSC-DBIT</span>
+                  <h1 class="event-title">Placement Awareness Session</h1>
+                  <p class="event-text">Session by Experts with strong industry experiences & who were a part of the GDSC Community</p>
+                  <label for="show-menu-2" class="menu-button"><span class="event-span"></span></label>
+                </div>
+                <input type="checkbox"  id="show-menu-2" />
+                <ul class="menu-content menu-content-2">
+                  <li class="event-li">
+                    <a target="_blank"
+                      href="https://gdsc.community.dev/events/details/developer-student-clubs-don-bosco-institute-of-technology-mumbai-presents-placement-awareness-session/"
                       class="event-a">Visit</a>
                   </li>
                 </ul>
@@ -641,9 +670,9 @@
               <li><a href="#intro" class="scrollto">Home</a></li>
               <li><a href="#services" class="scrollto">Events</a></li>
               <li>
-                <a href="team2022-23.html" class="scrollto">Our Team</a>
+                <a href="#team" class="scrollto">Our Team</a>
               </li>
-              <li><a href="gl.html">Community guidelines</a></li>
+              <li><a target="_blank" href="https://developers.google.com/community-guidelines">Community guidelines</a></li>
             </ul>
           </div>
 
@@ -698,7 +727,7 @@
   </footer>
   <!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up" style="margin-top: 13px;"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 

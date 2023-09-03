@@ -1375,15 +1375,17 @@ pro_title>h3 {
   transform: translateY(-60px);
 }
 
-@media(max-width:1200px) {
-  .event-card input[type=checkbox]:checked+.menu-content {
+@media(max-width:1200px){
+  /* make changes only in this when adding new event */
+
+  .event-card-1 #show-menu-1:checked+.menu-content-1 {
     transform: translateY(-60px);
   }
-}
 
-.event-example-1 .event-wrapper {
-  background: url(../img/logo/GDSC_DBIT.webp);
-  background-size: contain;
+  .event-card-2 #show-menu-2:checked+.menu-content-2 {
+    transform: translateY(-60px);
+  }
+  
 }
 
 .event-example-1 .event-date {

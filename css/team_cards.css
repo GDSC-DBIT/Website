@@ -448,12 +448,11 @@
     color: #4285f4;
 }
 
-.material-card.Blue .mc-footer a {
+.material-card.Blue .mc-footer .socials {
     background-color: #4285f4;
     border-radius: 10px;
 }
-
-.material-card.Blue .mc-footer a:hover {
+.material-card.Blue .mc-footer .socials:hover {
     background-color: #4285f4;
 }
 
@@ -513,7 +512,7 @@
     color: #263238;
 }
 
-.material-card.Blue-Grey .mc-footer a {
+.material-card.Blue-Grey .mc-footer .socials {
     background-color: #263238;
 }
 
