@@ -4,6 +4,6 @@ import { renderTeamCards } from "./js/team";
 import { tiltLogic } from "./js/tilt";
 
 addIcons()
-//addParallax()
+addParallax()
 tiltLogic()
 renderTeamCards()
