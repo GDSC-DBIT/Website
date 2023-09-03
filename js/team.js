@@ -13,9 +13,12 @@ export function renderTeamCards() {
 
   data.forEach(teammate => {
     let socials = ''
-    teammate.socials.forEach(social => {
-      socials += `<a target="_blank" class="fab fa-${social.name}" href="${social.link}"></a>`
-    })
+
+    if (teammate.socials) {
+      teammate.socials.forEach(social => {
+        socials += `<a target="_blank" class="fab fa-${social.name}" href="${social.link}"></a>`
+      })
+    }
 
     teamSection.innerHTML += `<div class="col-md-4 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="500">
         <article class="material-card Blue">

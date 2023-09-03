@@ -35,6 +35,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="./css/team.css">
   <link rel="stylesheet" href="./css/team_cards.css">
+  <link rel="stylesheet" href="./css/parallax.css">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
 
 
@@ -44,7 +45,7 @@
 
 
   <!-- main.js from root directory  -->
-  <script type="module" src="/main.js" defer></script>
+  <script type="module" src="./main.js" defer></script>
 
   <!-- <link href="css/ionicons.min.css" rel="stylesheet"> -->
   <!-- Libraries CSS Files -->
@@ -142,7 +143,25 @@
 
 
   <section class="parallax">
-    <img src="./img/Website_BG.png" alt="">
+    <!-- <img src="./img/Website_BG.png" alt=""> -->
+    <li id="scene">
+      <ul data-depth="1.0">
+        <div class="background"></div>
+      </ul>
+      <ul>
+        <div class="logo">
+          <img src="./img/logo/GDSC_DBIT.webp" style="width: 100%;height: 100%;">
+        </div>
+      </ul>
+      <ul>
+        <div class="team"></div>
+      </ul>
+      <ul data-depth="0.4">
+        <div class="decor1"></div>
+        <div class="decor2"></div>
+      </ul>
+      <ul data-depth="0.2"></ul>
+    </li>
     <a href="#intro" class="parallax-btn">Proceed to Site</a>
   </section>
 
