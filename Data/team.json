@@ -422,34 +422,5 @@
                 "link": "https://www.linkedin.com/in/moin-khan-746a45276/"
             }
         ]
-    },
-    {
-        "name": "Shaizy Shaikh",
-        "position": "Co-Ordinator",
-        "about": "Coordinator",
-        "image": "./img/Team/EricaPrasad_Co-Ordinator.jpg",
-        "socials": []
-    },
-    {
-        "name": "Iqra Shaikh",
-        "position": "Co-Ordinator",
-        "about": "Coordinator",
-        "image": "./img/Team/EricaPrasad_Co-Ordinator.jpg",
-        "socials": [
-            {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/iqra-shaikh-6898111b2/"
-            }
-        ]
-    },
-    {
-        "name": "Iqra Shaikh",
-        "position": "Co-Ordinator",
-        "description": "Coordinator",
-        "imageSrc": "./img/Team/EricaPrasad_Co-Ordinator.jpg",
-        "aboutMe": "I am a passionate individual with a love for technology and creativity. In my free time, I enjoy exploring new hobbies and connecting with like-minded people. Let's collaborate and create something amazing together!",
-        "socialLinks": {
-            "linkedin": "https://www.linkedin.com/in/iqra-shaikh-6898111b2/"
-        }
-    }
+    }  
 ]
