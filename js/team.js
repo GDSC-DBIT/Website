@@ -29,8 +29,7 @@ export function renderTeamCards() {
             </strong>
           </h2>
           <div class="mc-content">
-            <div class="img-container">
-              <img class="core-img" src="${teammate.image}">
+            <div class="img-container" style="background-image:url('${teammate.image}');">
             </div>
             <div class="mc-description">
             ${teammate.about}
