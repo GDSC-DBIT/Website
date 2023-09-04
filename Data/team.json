@@ -76,6 +76,70 @@
         ]
     },
     {
+        "name": "Prasad Alai",
+        "position": "Event Head",
+        "about": "Exploring the realms of Web Development. You can find me making films, when I'm not immersed in Lines of Code",
+        "image": "./img/Team/PrasadAlai_EventHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/prasad_6603/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/321prasad0058"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://in.linkedin.com/in/prasad-alai-52879a255"
+            }
+        ]
+    },
+    {
+        "name": "Aditya Samant",
+        "position": "Pr Head",
+        "about": "Motivated and eager-to-learn software engineering student, with special interest in Web-development and AI-ML",
+        "image": "./img/Team/AdityaSamant_PrHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/aditya__1473?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/aditya-samant-a18b65233"
+            }
+        ]
+    },
+    {
+        "name": "Anushka Emily Joseph",
+        "position": "Design Head",
+        "about": "Enthusiastic about art and designing. Driven by the desire to learn and improve technical proficiency.",
+        "image": "./img/Team/AnushkaEmily_DesignHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/anushka_emily?utm_source=qr&igshid=NGExMmI2YTkyZg=="
+            }
+        ]
+    },
+    {
+        "name": "Shantanu Mande",
+        "position": "Sponsorship Head",
+        "about": "Eager to learn new technologies.I also like Drawing",
+        "image": "./img/Team/ShantanuMande_SponsorshipHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/shantanumande/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/shantanu-mande-11b04b285/"
+            }
+        ]
+    },
+    {
         "name": "Yashas Khot",
         "position": "Cloud Expert",
         "about": "Motivated and Ardent Back-End Developer",
@@ -200,70 +264,6 @@
             {
                 "name": "linkedin",
                 "link": "https://www.linkedin.com/in/sameer-shaikh-7b607725a"
-            }
-        ]
-    },
-    {
-        "name": "Prasad Alai",
-        "position": "Event Head",
-        "about": "Exploring the realms of Web Development. You can find me making films, when I'm not immersed in Lines of Code",
-        "image": "./img/Team/PrasadAlai_EventHead.jpg",
-        "socials": [
-            {
-                "name": "instagram",
-                "link": "https://www.instagram.com/prasad_6603/"
-            },
-            {
-                "name": "github",
-                "link": "https://github.com/321prasad0058"
-            },
-            {
-                "name": "linkedin",
-                "link": "https://in.linkedin.com/in/prasad-alai-52879a255"
-            }
-        ]
-    },
-    {
-        "name": "Aditya Samant",
-        "position": "Pr Head",
-        "about": "Motivated and eager-to-learn software engineering student, with special interest in Web-development and AI-ML",
-        "image": "./img/Team/AdityaSamant_PrHead.jpg",
-        "socials": [
-            {
-                "name": "instagram",
-                "link": "https://instagram.com/aditya__1473?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            },
-            {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/aditya-samant-a18b65233"
-            }
-        ]
-    },
-    {
-        "name": "Anushka Emily Joseph",
-        "position": "Design Head",
-        "about": "Enthusiastic about art and designing. Driven by the desire to learn and improve technical proficiency.",
-        "image": "./img/Team/AnushkaEmily_DesignHead.jpg",
-        "socials": [
-            {
-                "name": "instagram",
-                "link": "https://instagram.com/anushka_emily?utm_source=qr&igshid=NGExMmI2YTkyZg=="
-            }
-        ]
-    },
-    {
-        "name": "Shantanu Mande",
-        "position": "Sponsorship Head",
-        "about": "Eager to learn new technologies.I also like Drawing",
-        "image": "./img/Team/ShantanuMande_SponsorshipHead.jpg",
-        "socials": [
-            {
-                "name": "instagram",
-                "link": "https://www.instagram.com/shantanumande/"
-            },
-            {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/shantanu-mande-11b04b285/"
             }
         ]
     },
