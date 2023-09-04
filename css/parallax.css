@@ -1,5 +1,5 @@
 .parallax {
-    height: 90vh;
+    height: 100vh;
     padding: 0;
 }
 
@@ -25,6 +25,7 @@ ul>.background {
     height: 100%;
     background-image: url("/img/Website_BG.png");
     background-size: 75%;
+    opacity: 0.5;
 }
 
 ul>.logo {
@@ -64,3 +65,9 @@ ul>.decor2 {
 ul>.decor2 {
     left: 75%;
 }
+
+/* .parallax-btn{
+    background-color: black;
+    z-index: 999;
+    position: absolute;
+} */
