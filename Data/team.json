@@ -270,8 +270,8 @@
     {
         "name": "Ehtesham Siddiqui",
         "position": "General Advisor",
-        "about": "Entrepreneur",
-        "image": "./img/Team/LiklaSinha_DesignAdvisor.jpg",
+        "about": "With an entrepreneurial mindset, I enthusiastically embrace new ideas, aiming to drive positive transformation in society's future.",
+        "image": "./img/Team/Ethesham_GeneralAdvisor.jpg",
         "socials": [
             {
                 "name": "linkedin",
@@ -282,7 +282,7 @@
     {
         "name": "Alston Fernandes",
         "position": "Technical Advisor",
-        "about": "Tech",
+        "about": "Passionate about web and app development",
         "image": "./img/Team/Alston_TechAdvisor.jpg",
         "socials": [
             {
@@ -299,7 +299,7 @@
         "name": "Raj Chaudhari",
         "position": "Event Advisor",
         "about": "Event",
-        "image": "./img/Team/LiklaSinha_DesignAdvisor.jpg",
+        "image": "./img/Team/RajChaudhari_EventAdvisor.jpg",
         "socials": [
             {
                 "name": "instagram",
@@ -314,7 +314,7 @@
     {
         "name": "Likla Sinha",
         "position": "Design Advisor",
-        "about": "Design",
+        "about": "Motivated Interactive Designer SIH Grand Finalist 2021-22 Figma | Abode Illustrator | Adobe Photoshop | Adobe InDesign |",
         "image": "./img/Team/LiklaSinha_DesignAdvisor.jpg",
         "socials": [
             {
@@ -338,7 +338,7 @@
     {
         "name": "Vipul Belhekar",
         "position": "Sponsorship Advisor",
-        "about": "Motivated",
+        "about": "",
         "image": "./img/Team/VipulBelhekar_SponsorshipAdvisor.jpg",
         "socials": [
             {
