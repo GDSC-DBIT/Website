@@ -11,6 +11,7 @@ export function handleForm() {
         e.preventDefault();
         const submitBtn = document.getElementById('submit-btn')
         submitBtn.disabled = true
+        submitBtn.textContent = 'sending...'
 
         // Get form values
         const name = document.getElementById('fname').value;
@@ -54,11 +55,13 @@ export function handleForm() {
             message: message
         }, import.meta.env.VITE_PUBLIC_KEY)
             .then(function (response) {
-                alert('Success! We will reach out to you as soon as possible', response.status, response.text);
+                alert('We will reach out to you as soon as possible', response.status, response.text);
                 submitBtn.disabled = false
+                submitBtn.textContent = 'Submit Message'
             }, function (error) {
-                alert('FAILED...', error);
+                alert('Failed to generate an email please try again later', error);
                 submitBtn.disabled = false
-            });    
+                submitBtn.textContent = 'Submit Message'
+            });
     });
 }
