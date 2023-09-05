@@ -4,9 +4,13 @@ import { validateName, validateEmail, validatePhoneNumber, validateMessage } fro
 
 export function handleForm() {
     let form = document.getElementById('contactForm')
+    // let submitBtn = document.getElementById('submit-btn')
+
     form.addEventListener('submit', function (e) {
         // Prevent form submission
         e.preventDefault();
+        const submitBtn = document.getElementById('submit-btn')
+        submitBtn.disabled = true
 
         // Get form values
         const name = document.getElementById('fname').value;
@@ -50,9 +54,11 @@ export function handleForm() {
             message: message
         }, import.meta.env.VITE_PUBLIC_KEY)
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+                alert('Success! We will reach out to you as soon as possible', response.status, response.text);
+                submitBtn.disabled = false
             }, function (error) {
-                console.log('FAILED...', error);
-            });
+                alert('FAILED...', error);
+                submitBtn.disabled = false
+            });    
     });
 }

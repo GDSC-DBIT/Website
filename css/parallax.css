@@ -78,23 +78,21 @@ width: 525px;
     background: transparent;
 }
 
-.proceed>button{
+.proceed>a{
     margin-top: 25em;
     background-color: #fbbc04;
     border: none;
     padding: 20px;
     border-radius: 20px;
-}
-
-.proceed>button>a{
     color: black;
+    width: 150px;
+    height: 60px;
 }
 
-.proceed > button:hover{
+.proceed > a:hover{
     background-color: green;
-    >a{
-        color:white;
-    }
+    color:white;
+
 }
 
 .proceed{
