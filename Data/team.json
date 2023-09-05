@@ -1,0 +1,426 @@
+[
+    {
+        "name": "Shrikrishna Umbare",
+        "position": "Lead",
+        "about": "I'm Shrikrishna Umbare, leading GDSC at DBIT. Let's dive into tech and innovate together!",
+        "image": "./img/Team/ShrikrishnaUmbare_Lead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/shri__krishna__142/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/shri142"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/shrikrishna-umbare/"
+            }
+        ]
+    },
+    {
+        "name": "Sahil Singh",
+        "position": "Co-Lead",
+        "about": "Motivated and Passionate full stack Web Developer. I also like watching anime and doing calisthenics.",
+        "image": "./img/Team/Sahil_CoLead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/printf_sahil_/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Sahil5111"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/sahilsingh03122003/"
+            }
+        ]
+    },
+    {
+        "name": "Omesh Barhate",
+        "position": "Co-Lead",
+        "about": "Motivated and Passionate Backend Web Developer.",
+        "image": "./img/Team/Omesh_CoLead.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/omesh-barhate"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/omesh-barhate/"
+            }
+        ]
+    },
+    {
+        "name": "Dushyant Bhagwat",
+        "position": "Secretary",
+        "about": "I am a motivated and confident team member with a tech-savvy and enthusiastic approach.",
+        "image": "./img/Team/Dushyant_Secretary.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/dushyantbhagwat?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Dushyantbhagwat"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/dushyant-bhagwat-144917287"
+            }
+        ]
+    },
+    {
+        "name": "Prasad Alai",
+        "position": "Event Head",
+        "about": "Exploring the realms of Web Development. You can find me making films, when I'm not immersed in Lines of Code",
+        "image": "./img/Team/PrasadAlai_EventHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/prasad_6603/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/321prasad0058"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://in.linkedin.com/in/prasad-alai-52879a255"
+            }
+        ]
+    },
+    {
+        "name": "Aditya Samant",
+        "position": "Pr Head",
+        "about": "Motivated and eager-to-learn software engineering student, with special interest in Web-development and AI-ML",
+        "image": "./img/Team/AdityaSamant_PrHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/aditya__1473?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/aditya-samant-a18b65233"
+            }
+        ]
+    },
+    {
+        "name": "Anushka Emily Joseph",
+        "position": "Design Head",
+        "about": "Enthusiastic about art and designing. Driven by the desire to learn and improve technical proficiency.",
+        "image": "./img/Team/AnushkaEmily_DesignHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/anushka_emily?utm_source=qr&igshid=NGExMmI2YTkyZg=="
+            }
+        ]
+    },
+    {
+        "name": "Shantanu Mande",
+        "position": "Sponsorship Head",
+        "about": "Eager to learn new technologies.I also like Drawing",
+        "image": "./img/Team/ShantanuMande_SponsorshipHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/shantanumande/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/shantanu-mande-11b04b285/"
+            }
+        ]
+    },
+    {
+        "name": "Yashas Khot",
+        "position": "Cloud Expert",
+        "about": "Motivated and Ardent Back-End Developer",
+        "image": "./img/Team/YashasKhot_CloudExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/yashas1256/?igshid=ZDdkNTZiNTM%3D"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/yashaskhot"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/yashaskhot/"
+            }
+        ]
+    },
+    {
+        "name": "Gaven D'costa",
+        "position": "Web Expert",
+        "about": "Motivated and Ardent full stack Web Developer. I also like watching anime and lifting weights",
+        "image": "./img/Team/GavenDcosta_WebExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/gavendcosta/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/GavenDcosta"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/gaven-dcosta-b18165239/"
+            }
+        ]
+    },
+    {
+        "name": "Jess John",
+        "position": "App Expert",
+        "about": "Eager and passionate about exploring MERN stack and Flutter development",
+        "image": "./img/Team/JessJohn_AppExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/jesspacito_6174/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/jessjohn1539"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/jessjohn1539/"
+            }
+        ]
+    },
+    {
+        "name": "Melwin Lewis",
+        "position": "App Expert",
+        "about": "Avid Video Game Player and Tech Enthusiast, likes to discover new things",
+        "image": "./img/Team/Melwin_AppExpert.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/MasteroidM"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/melwin-lewis-6a91a4199/"
+            }
+        ]
+    },
+    {
+        "name": "Aarol D'souza",
+        "position": "DSA Expert",
+        "about": "An Enthusiastic, Tech-savant, and Goal-Driven Individual aspiring to bring revolutionary changes in tech. through my Development and Problem Solving Skills!",
+        "image": "./img/Team/AarolDSouza_DSAExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/aarol.dsouza/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/AarDG10"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/aarol-d-souza-a25893259/"
+            }
+        ]
+    },
+    {
+        "name": "Vaishnavi Nagave",
+        "position": "DSA Expert",
+        "about": "Dedicated and passionate about solving problems through data structures and algorithms",
+        "image": "./img/Team/VaishnaviNagave_DsaExpert.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/vaishnavim614"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/vaishnavi-nagave-550477260/"
+            }
+        ]
+    },
+    {
+        "name": "Sameer Shaikh",
+        "position": "DSA Expert",
+        "about": "Innovative Software Engineer | Transforming Ideas into Scalable Solutions | Ranked Top 150 in Google Kickstart",
+        "image": "./img/Team/Sameer_DSAExpert.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/SameerNazir0624"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/sameer-shaikh-7b607725a"
+            }
+        ]
+    },
+    {
+        "name": "Ehtesham Siddiqui",
+        "position": "General Advisor",
+        "about": "With an entrepreneurial mindset, I enthusiastically embrace new ideas, aiming to drive positive transformation in society's future.",
+        "image": "./img/Team/Ethesham_GeneralAdvisor.jpg",
+        "socials": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/ehtesham-siddiqui03/"
+            }
+        ]
+    },
+    {
+        "name": "Alston Fernandes",
+        "position": "Technical Advisor",
+        "about": "Passionate about web and app development",
+        "image": "./img/Team/Alston_TechAdvisor.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/fernands_alston/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/alston-fernandes-b28720220//"
+            }
+        ]
+    },
+    {
+        "name": "Raj Chaudhari",
+        "position": "Event Advisor",
+        "about": "Your Event Advisor: Turning visions into unforgettable experiences.",
+        "image": "./img/Team/RajChaudhari_EventAdvisor.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/iamrajchaudhari_108_/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/raj-chaudhari2151/"
+            }
+        ]
+    },
+    {
+        "name": "Likla Sinha",
+        "position": "Design Advisor",
+        "about": "Motivated Interactive Designer Figma | Abode Illustrator | Adobe Photoshop | Adobe InDesign |",
+        "image": "./img/Team/LiklaSinha_DesignAdvisor.jpg",
+        "socials": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/likla-sinha-bb6244202/"
+            }
+        ]
+    },
+    {
+        "name": "Yash Dharmadhikari",
+        "position": "Design Advisor",
+        "about": "Design Advisor: Elevating visuals and user experiences with creativity and expertise.",
+        "image": "./img/Team/YashDharmadhikari_DesignAdvisor.jpg",
+        "socials": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/yash-dharmadhikari-340baa229/"
+            }
+        ]
+    },
+    {
+        "name": "Vipul Belhekar",
+        "position": "Sponsorship Advisor",
+        "about": "Sponsor Advisor: Connecting opportunities, funding growth, and fueling success.",
+        "image": "./img/Team/VipulBelhekar_SponsorshipAdvisor.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/vipulbelhekar_/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/vipul-belhekar-96b7941aa/"
+            }
+        ]
+    },
+    {
+        "name": "Erica Prasad",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/EricaPrasad_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://instagram.com/erica_prasad?utm_source=qr&igshid=MThlNWY1MzQwNA=="
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/EricaPrasad"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/erica-prasad-92ab64255/"
+            }
+        ]
+    },
+    {
+        "name": "Harsh Chaudhari",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Swayam Dalvi",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/Swayam_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/swayam-dalvi-223483260/"
+            }
+        ]
+    },
+    {
+        "name": "Moin Khan",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/Moin_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/moink_17/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/moink7"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/moin-khan-746a45276/"
+            }
+        ]
+    }  
+]
