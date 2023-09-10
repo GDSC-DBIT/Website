@@ -2,15 +2,6 @@ import data from '../Data/team.json'
 
 export function renderTeamCards() {
   const teamSection = document.querySelector('#cardPos')
-  // const cardTemplate = document.querySelector('.teamSectionTemplate')
-  // let node = document.importNode(cardTemplate.content, true)
-
-  // // variables from node
-  // let clonenode = node.clonenode(true)
-  // let name = clonenode.querySelector('#Name')
-  // let position = clonenode.querySelector('#Position')
-  // let About = clonenode.querySelector('#AboutMe')
-
   data.forEach(teammate => {
     let socials = ''
     teammate.socials.forEach(social => {
