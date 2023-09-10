@@ -139,6 +139,8 @@
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .material-card .mc-btn-action {
@@ -280,6 +282,8 @@
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .material-card.mc-active .img-container {
@@ -554,4 +558,4 @@
 
 *{
     font-family: 'Google Sans', sans-serif;
-  }
+}
