@@ -58,10 +58,10 @@ export function handleForm() {
                 alert('We will reach out to you as soon as possible', response.status, response.text);
                 submitBtn.disabled = false
                 submitBtn.textContent = 'Submit Message'
-            }, function (error) {
+            }).catch(function (error) {
                 alert('Failed to generate an email please try again later', error);
                 submitBtn.disabled = false
                 submitBtn.textContent = 'Submit Message'
-            });
+            })
     });
 }
