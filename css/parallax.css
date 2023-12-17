@@ -62,6 +62,7 @@ li>.layer>div {
     color: black;
     width: 150px;
     height: 60px;
+    text-decoration: none;
 }
 
 .proceed>a:hover {
