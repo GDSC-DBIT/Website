@@ -994,6 +994,14 @@ pro_title>h3 {
     transform: translateY(-60px);
   }
 
+  .event-card-5 #show-menu-5:checked+.menu-content-5 {
+    transform: translateY(-60px);
+  }
+
+  .event-card-6 #show-menu-6:checked+.menu-content-6 {
+    transform: translateY(-60px);
+  }
+
 }
 
 .event-example-1 .event-date {
