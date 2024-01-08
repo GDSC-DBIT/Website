@@ -399,7 +399,6 @@ boxes {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
@@ -999,6 +998,14 @@ pro_title>h3 {
   }
 
   .event-card-6 #show-menu-6:checked+.menu-content-6 {
+    transform: translateY(-60px);
+  }
+
+  .event-card-7 #show-menu-7:checked+.menu-content-7 {
+    transform: translateY(-60px);
+  }
+
+  .event-card-8 #show-menu-8:checked+.menu-content-8 {
     transform: translateY(-60px);
   }
 
@@ -2026,9 +2033,17 @@ pro_title>h3 {
   }
 }
 
+.intro-info {
+  margin-left:100px;
+}
+
 @media (max-width: 767px) {
   #intro .intro-info {
     width: 100%;
+  }
+
+  .intro-info {
+    margin-left:0px;
   }
 
   #intro .intro-info h2 {
@@ -2171,6 +2186,14 @@ pro_title>h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+@media (max-width:500px) {
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width:500px) {
