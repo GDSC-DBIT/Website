@@ -1013,6 +1013,11 @@ pro_title>h3 {
     transform: translateY(-60px);
   }
 
+  .event-card-10 #show-menu-10:checked+.menu-content-10 {
+    transform: translateY(-60px);
+  }
+
+
 }
 
 .event-example-1 .event-date {
