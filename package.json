@@ -20,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "emailjs": "^4.0.2",
     "parallax-js": "^3.1.0",
-    "vanilla-tilt": "^1.8.1"
+    "vanilla-tilt": "^1.8.1",
+    "website": "file:"
   }
 }

@@ -1,0 +1,409 @@
+[
+    {
+        "name": "Jayesh Wani",
+        "position": "Lead",
+        "about": "I am Jayesh Wani, Campus Organizer at GDGC and a full stack developer passionate about Programming and tech",
+        "image": "./img/Team/ShrikrishnaUmbare_Lead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/jayesh_wani7/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/JayeshWani7"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/jayesh-wani/"
+            }
+        ]
+    },
+    {
+        "name": "Umme Athiya",
+        "position": "Co-Lead",
+        "about": "I'm atiya, a passionate individual with interest in for things that combine creativity and problem-solving skills. ",
+        "image": "./img/NewTeam/Umme_Atiya_Quraishi_Co_Lead.JPG",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/UmmeAtiyaa"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/umme-atiya/"
+            }
+        ]
+    },
+    {
+        "name": "Erica Prasad",
+        "position": "Secretary",
+        "about": "I am Erica, a driven student with a knack for problem-solving, exploring technologies, and tackling real-world challenges.",
+        "image": "./img/Team/Dushyant_Secretary.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/erica_prasad?igsh=dzZhNTY1Z3BndnQz"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/EricaPrasad"    
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/erica-prasad/"
+            }
+        ]
+    },
+    {
+        "name": "Shreya Chakraborty",
+        "position": "Event Head",
+        "about": "Passionate about organizing impactful technological events that foster collaboration and innovation.",
+        "image": "./img/Team/PrasadAlai_EventHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/shreyachakraborty1712/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/shreyachak1712"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/shreya-sanjay-chakraborty-bb41992a4/"
+            }
+        ]
+    },
+    {
+        "name": "Zubia Sarang",
+        "position": "Design Head",
+        "about": "An electronics enthusiast, blending art and tech in my creative playground ;)",
+        "image": "./img/Team/AnushkaEmily_DesignHead.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/triceratronics"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/zubia-s-19054629a/"
+            }
+        ]
+    },
+    {
+        "name": "Tanush Karane",
+        "position": "Design Head",
+        "about": "Design Head at GDSC DBIT and a front-end developer.Passionate about using skills in UI/UX design to create impactful experiences",
+        "image": "./img/Team/AnushkaEmily_DesignHead.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/tanussh.04/?next=%2F"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/08Tanush"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/tanush-karane-75994a31a/"
+            }
+        ]
+    },
+    
+    {
+        "name": "Yash Khatpe",
+        "position": "Web Expert",
+        "about": "I'm Yash Khatpe, Web Expert at GDGC, passionate about building impactful web solutions and enhancing user experiences",
+        "image": "./img/Team/GavenDcosta_WebExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/yash_khatpe6/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/YashKhatpe"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/yash-khatpe"
+            }
+        ]
+    },
+    {
+        "name": "Krishna Shirsath",
+        "position": "Tech Expert",
+        "about": "Tech expert at GDGC,also a full stack developer. I am passionate about using my skills to create innovative solutions.",
+        "image": "./img/Team/GavenDcosta_WebExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/___krishna_s_/"
+            },
+            {
+                "name": "github",
+                "link": "http://www.linkedin.com/in/krishna-shirsath"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://github.com/krishna-254"
+            }
+        ]
+    },
+    
+    {
+        "name": "Narendra Dukhande",
+        "position": "DSA Expert",
+        "about": "I am Narendra Dukhande, a student who loves solving problems with smart algorithms and efficient data structures",
+        "image": "./img/Team/AarolDSouza_DSAExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/narendra_3_0?igsh=ZHNvYmNwcDdkODRt"
+            },
+            {
+                "name": "github",
+                "link": "http://github.com/narendra3003"
+            },
+            {
+                "name": "linkedin",
+                "link": "http://linkedin.com/in/narendra-dukhande"
+            }
+        ]
+    },
+    {
+        "name": "Sanjay Yadav",
+        "position": "DSA Expert",
+        "about": "DSA expert and GDGC contributor with a keen interest in Data science and analytics.",
+        "image": "./img/Team/VaishnaviNagave_DsaExpert.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/venom_05_8483/"
+            },
+            {
+                "name": "github",
+                "link": "https://www.linkedin.com/in/sanjay-yadav-2813852ab/"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://github.com/sanjay-yadav-05"
+            }
+        ]
+    },
+    {
+        "name": "Iqra Munna Shaikh",
+        "position": "CyberSec Expert",
+        "about": "I am Iqra, CyberSec expert at GDGC, with a strong interest in cybersecurity and cutting-edge technology.",
+        "image": "./img/Team/Ethesham_GeneralAdvisor.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/IqraShaikh1"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/iqra-shaikh-6898111b2"
+            }
+        ]
+    },
+    {
+        "name": "Yashas Khot",
+        "position": "Advisor",
+        "about": "Motivated and Ardent Back-End Developer",
+        "image": "./img/Team/Alston_TechAdvisor.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/yashas.khot/"
+            },
+            {
+                "name": "github",
+                "link": "https://linkedin.com/in/yashaskhot"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://github.com/yashaskhot"
+            }
+        ]
+    },
+    {
+        "name": "Omesh Barhate",
+        "position": "Advisor",
+        "about": "Learning and growing together in tech!",
+        "image": "./img/Team/Omesh_CoLead.jpg",
+        "socials": [
+            {
+                "name": "github",
+                "link": "https://github.com/omesh-barhate"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/omesh-barhate/"
+            }
+        ]
+    },
+    {
+        "name": "Prateek Kumar Das",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/legendprateekd/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Shraddha Desai",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/NewTeam/Shraddha Desai.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Anay Deshpande",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Atharva Jahagirdar",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Sayali Kulkarni",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Atharva Avhad",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Sanika Lad",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    },
+    {
+        "name": "Ram Bobade",
+        "position": "Co-Ordinator",
+        "about": "I'm here to support our leads. As a Coordinator, my role is to help make their vision a reality, ensuring smooth execution every step of the way.",
+        "image": "./img/Team/HarshChaudhari_SE_Co-Ordinator.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/harsh_chaudhari_212/"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Harshh212"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/harsh-chaudhari-a8570725b/"
+            }
+        ]
+    }
+ 
+]
