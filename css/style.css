@@ -1017,6 +1017,9 @@ pro_title>h3 {
     transform: translateY(-60px);
   }
 
+  .event-card-11 #show-menu-11:checked+.menu-content-11 {
+    transform: translateY(-60px);
+  }
 
 }
 
